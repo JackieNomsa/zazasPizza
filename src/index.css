@@ -59,7 +59,9 @@ code {
   height: 35vh;
   width: 100%;
   background-image: url('images/zazas.png');
-  background-size: cover;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center; 
 }
 
 .pizza{
@@ -116,8 +118,6 @@ padding: 1em;
   .nav_links{
     margin-left: auto;
     text-align: center;
-    
-    
   }
   
   .nav_links li{
@@ -128,6 +128,10 @@ padding: 1em;
     padding-left: 1em;
    
   }
+
+  .home{
+    height: 44vh;
+  }
 }
 
 @media (min-width: 500px) {
@@ -137,6 +141,33 @@ padding: 1em;
 
   .menu,.location{
     font-size: 7em;
+  }
+
+  .home{
+    height: 57vh;
+  }
+
+}
+
+@media (min-width: 700px) {
+  .home{
+    height: 70vh;
+  }
+
+}
+
+@media (min-width: 900px) {
+  
+
+  .home{
+    height: 70vh;
+  }
+
+}
+
+@media (min-width: 1020px) {
+  .home{
+    height: 70vh;
   }
 
 }
