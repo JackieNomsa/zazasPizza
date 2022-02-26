@@ -111,3 +111,32 @@ padding: 1em;
   width: 70%;
   margin: 0 auto;
 }
+
+@media (min-width: 300px) {
+  .nav_links{
+    margin-left: auto;
+    text-align: center;
+    
+    
+  }
+  
+  .nav_links li{
+    padding-left:.7em;
+  }
+  
+  .nav_links li a{
+    padding-left: 1em;
+   
+  }
+}
+
+@media (min-width: 500px) {
+  .nav_links{
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .menu,.location{
+    font-size: 7em;
+  }
+
+}
