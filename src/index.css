@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(39,39,39);
+  background-color: #1E2022;
 }
 
 code {
@@ -15,7 +15,6 @@ code {
 }
 
 .nav_bar{
-  background-color: #272727;
   padding: .5em;
 }
 
@@ -54,6 +53,10 @@ code {
   width: 100%;
   background-image: url('images/zazas.png');
   background-size: cover;
+}
+
+.pizza img{
+  width: 100%;
 }
 
 .menu-location{
