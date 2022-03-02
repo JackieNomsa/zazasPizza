@@ -6,3 +6,5 @@ const Menu = () => {
         <button>Download Menu</button>
     </>
 }
+
+export default Menu;
