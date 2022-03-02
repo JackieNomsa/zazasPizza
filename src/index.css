@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: hsl(210, 6%, 13%);
-  margin-bottom:80px;
+  margin-bottom:200px;
 }
 
 code {
@@ -98,9 +98,11 @@ padding: 1em;
 .footer{
   position: fixed;
   bottom: 0;
-  height: 70px;
+  height: 190px;
   width: 100%;
   background-color: goldenrod;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
 
   
 }
