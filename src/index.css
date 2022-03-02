@@ -102,7 +102,7 @@ padding: 1em;
   width: 100%;
   background-color: goldenrod;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 
   
 }
