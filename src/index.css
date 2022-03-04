@@ -1,175 +1,220 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: hsl(210, 6%, 13%);
-  margin-bottom:130px;
+  margin-bottom: 130px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.nav_bar{
-  padding: .5em;
+.nav_bar {
+  padding: 0.5em;
 }
 
-.nav_bar h1{
-  margin: 0;
+.nav_bar h1 a{
+  text-decoration: none;
   text-align: center;
   color: #fff;
 }
 
-.nav_links{
+.nav_bar h1 {
+  text-align: center;
+}
+
+.nav_links {
   list-style: none;
   margin-left: 0;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  
 }
 
-.nav_links li{
+.nav_links li {
   text-transform: uppercase;
   font-weight: bold;
-  padding: .7em;
-  padding-left:0;
+  padding: 0.7em;
+  padding-left: 0;
 }
 
-.nav_links li a{
-  padding: .5em 1em;
+.nav_links li a {
+  padding: 0.5em 1em;
   padding-left: 0;
   text-decoration: none;
   color: goldenrod;
 }
 
-.nav_links li a:hover{
+.nav_links li a:hover {
   background-color: goldenrod;
   color: #272727;
 }
-.contact{
+.contact {
   padding-right: 0;
   margin-right: 0;
 }
-.home{
+.home {
   height: 35vh;
   width: 100%;
-  background-image: url('images/zazas.png');
-  background-size:     cover;
-  background-repeat:   no-repeat;
-  background-position: center center; 
+  background-image: url("images/zazas.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.pizza{
-padding: 1em;
+.pizza {
+  padding: 1em;
 }
 
-.pizza img{
+.pizza img {
   width: 100%;
 }
 
-.menu-location{
+.menu-location {
   display: grid;
   grid-template-columns: auto auto;
   width: 80%;
   margin: auto;
 }
 
-.menu-location div{
+.menu-location div {
   text-align: center;
   color: #fff;
   font-weight: bold;
 }
 
-.menu{
+.menu {
   color: goldenrod;
   font-size: 4em;
 }
 
-.location{
+.location {
   color: rgb(99, 99, 236);
   font-size: 4em;
 }
 
-.footer{
-  position: fixed;
-  bottom: 0;
-  height: 110px;
-  width: 100%;
-  background-color: goldenrod;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 
-  
-}
-
-.footer p{
-  font-size: small;
-  text-align: center;
-  color: #fff;
-  padding: 1.5em;
-  width: 70%;
-  margin: 0 auto;
-}
 
 @media (min-width: 300px) {
-  .nav_links{
+  .nav_links {
     margin-left: auto;
     text-align: center;
   }
-  
-  .nav_links li{
-    padding-left:.7em;
-  }
-  
-  .nav_links li a{
-    padding-left: 1em;
-   
+
+  .nav_links li {
+    padding-left: 0.7em;
   }
 
-  .home{
+  .nav_links li a {
+    padding-left: 1em;
+  }
+
+  .home {
     height: 44vh;
   }
+
+  .main-menu{
+    height: 70vh;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-page{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .menu-page h1{
+    color: aliceblue;
+  }
+
+  .menu-page button{
+    width: 8em;
+    height: 3em;
+    margin-top: 2em;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    transition: all .5s ease-in-out;
+  }
+
+  .menu-page button:hover{
+    color: goldenrod;
+    background-color: aliceblue;
+  }
+
+  .drinks{
+    width: 20%;
+    margin: .2em auto;
+    font-size: 4em;
+    color: green;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    height: 110px;
+    width: 100%;
+    background-color: goldenrod;
+    
+  }
+
+  .footer p {
+    font-size: small;
+    text-align: center;
+    color: #fff;
+    padding: .5em;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .footer .first{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
 }
 
 @media (min-width: 500px) {
-  .nav_links{
+  .nav_links {
     grid-template-columns: auto auto auto auto;
   }
 
-  .menu,.location{
+  .menu,
+  .location {
     font-size: 7em;
   }
 
-  .home{
+  .home {
     height: 57vh;
   }
 
+  
 }
 
 @media (min-width: 700px) {
-  .home{
+  .home {
     height: 70vh;
   }
-
 }
 
 @media (min-width: 900px) {
-  
-
-  .home{
+  .home {
     height: 70vh;
   }
-
 }
 
 @media (min-width: 1020px) {
-  .home{
+  .home {
     height: 70vh;
   }
-
 }
