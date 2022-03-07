@@ -1,13 +1,17 @@
 import React from "react";
+import { MdEmail } from "react-icons/md";
+import { AiFillYoutube,AiFillFacebook,AiFillTwitterCircle } from "react-icons/ai"
 
 
 const Contact = () => {
     return <>
     <div className="contact">
         <div className="social">
-            <h2>Email</h2>
             <p>email@example.co.za</p>
-            <h2>Social media</h2>
+        <MdEmail className="email"/>
+            <AiFillYoutube className="you-tube"/>
+            <AiFillFacebook className="facebook"/>
+            <AiFillTwitterCircle className="twitter"/>
 
         </div>
         <div className="message">
@@ -28,7 +32,7 @@ const Contact = () => {
                     <option>get information</option>
 
                 </select>
-
+                <input type="button" value="Send"></input>
 
             </form>
         </div>

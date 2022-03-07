@@ -2,7 +2,7 @@ import React from "react";
 
 const Stores = () => {
     return <>
-    <div>
+    <div className="stores">
         <h1>Stores</h1>
         <p>Marshalltown</p>
         <p>21B Loveday St, Marshalltown</p>
