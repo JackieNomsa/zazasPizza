@@ -5,8 +5,8 @@ function Modal({ open, data, onClose }) {
     if (!open) return null;
   return (
     <div className='modal'>
-        <AiOutlineClose onClick={onClose}/>
-    <p>{data}</p>
+        <AiOutlineClose className='close-btn' onClick={onClose}/>
+    <img src={data}/>
     </div>
   )
 }

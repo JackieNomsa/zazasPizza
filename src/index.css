@@ -29,6 +29,10 @@ code {
   text-align: center;
 }
 
+.nav_bar h1 img{
+  width: 120px;
+}
+
 .nav_links {
   list-style: none;
   margin-left: 0;
@@ -98,9 +102,13 @@ code {
   font-size: 4em;
 }
 
+.first p img{
+  width: 70px;
+}
 
 
-@media (min-width: 300px) {
+
+@media (min-width: 280px) {
   .nav_links {
     margin-left: auto;
     text-align: center;
@@ -217,6 +225,7 @@ code {
    padding: .2em;
  }
 
+
  .email{
    color: aqua;
  }
@@ -232,12 +241,39 @@ code {
 
 .modal{
   color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0, .7);
+  padding-top: 5em;
+  width: 100vw;
+  height: 100vh;
+  transform: 'translate(-50%, -50%)';
+}
+
+.modal img{
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.modal .close-btn{
+  font-size: 2em;
+  font-weight: bold;
+  color: red;
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding: .5em;
 }
   .footer {
     position: fixed;
     bottom: 0;
     height: 110px;
     width: 100%;
+    padding: .5em;
     background-color: goldenrod;
     
   }
@@ -251,10 +287,7 @@ code {
     margin: 0 auto;
   }
 
-  .footer .first{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+ 
 
 }
 
