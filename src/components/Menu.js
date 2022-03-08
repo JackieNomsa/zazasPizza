@@ -11,7 +11,7 @@ const Menu = () => {
     </div>
     <div className="menu-links">
         {/* <div className="food"> */}
-        <a href="#" onClick={() => setIsOpen(true)}>Food</a>
+        <a onClick={() => setIsOpen(true)}>Food</a>
 
         <Modal data="https://image.shutterstock.com/image-vector/fast-food-restaurant-menu-sandwiches-600w-586392848.jpg" open={isOpen} onClose={() => setIsOpen(false)}/>
         {/* </div> */}
