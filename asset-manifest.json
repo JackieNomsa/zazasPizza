@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/zazasPizza/static/css/main.1670b88a.css",
-    "main.js": "/zazasPizza/static/js/main.ad0428a4.js",
+    "main.css": "/zazasPizza/static/css/main.8255434c.css",
+    "main.js": "/zazasPizza/static/js/main.2b1ae271.js",
     "static/media/food.jpg": "/zazasPizza/static/media/food.6ef6db913df93a631506.jpg",
     "static/media/zazas.png": "/zazasPizza/static/media/zazas.783a3b8ce292b037534f.png",
     "static/media/logo.png": "/zazasPizza/static/media/logo.5af49ef51dbac8422e0d.png",
     "index.html": "/zazasPizza/index.html",
-    "main.1670b88a.css.map": "/zazasPizza/static/css/main.1670b88a.css.map",
-    "main.ad0428a4.js.map": "/zazasPizza/static/js/main.ad0428a4.js.map"
+    "main.8255434c.css.map": "/zazasPizza/static/css/main.8255434c.css.map",
+    "main.2b1ae271.js.map": "/zazasPizza/static/js/main.2b1ae271.js.map"
   },
   "entrypoints": [
-    "static/css/main.1670b88a.css",
-    "static/js/main.ad0428a4.js"
+    "static/css/main.8255434c.css",
+    "static/js/main.2b1ae271.js"
   ]
 }
